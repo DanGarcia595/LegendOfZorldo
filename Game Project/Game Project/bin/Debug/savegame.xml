@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<SaveGameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <lank1>
+    <health>300</health>
+    <name>Lank</name>
+    <desc>I is Lank</desc>
+    <id>101</id>
+    <speed>25</speed>
+    <strength>25</strength>
+    <defense>25</defense>
+    <eitem>
+      <name>DINS EDGE</name>
+      <desc>A finely crafted blade with a jewl embedded on the hilt, glowing as if it
+was ablaze.
+</desc>
+      <id>5</id>
+      <type>Weapon</type>
+      <power>9000</power>
+    </eitem>
+    <pocket>
+      <item>
+        <name>WOODEN SWORD</name>
+        <desc>A standard wooden sword used by many aspiring knights during training.
+</desc>
+        <id>1</id>
+        <type>Weapon</type>
+        <power>1</power>
+      </item>
+      <item>
+        <name>BROKEN SHIELD</name>
+        <desc>A crude shield with splintered edges.
+</desc>
+        <id>2</id>
+        <type>Utility</type>
+        <power>1</power>
+      </item>
+      <item>
+        <name>BOW</name>
+        <desc>An aged bow carved from a rustic, yet surprisingly sturdy wood.
+</desc>
+        <id>7</id>
+        <type>Weapon</type>
+        <power>2</power>
+      </item>
+      <item>
+        <name>ARROWS</name>
+        <desc>These finely cut arrows will surely pierce anything stupid enough to get
+in your way.
+</desc>
+        <id>10</id>
+        <type>Utility</type>
+        <power>5</power>
+      </item>
+      <item>
+        <name>BOOMERANG</name>
+        <desc>A coveted item revered by many as 'The Hand of the Ancient'.
+</desc>
+        <id>8</id>
+        <type>Utility</type>
+        <power>0</power>
+      </item>
+      <item>
+        <name>NIKES</name>
+        <desc>One of the seven gifts left to humanity, these shoes will allow you to
+move at amazing speeds!
+</desc>
+        <id>11</id>
+        <type>Utility</type>
+        <power>0</power>
+      </item>
+      <item>
+        <name>HEART</name>
+        <desc>Your slain foe's still beating heart. YUM!</desc>
+        <id>18</id>
+        <type>Other</type>
+        <power>1</power>
+      </item>
+      <item>
+        <name>FAIRY</name>
+        <desc>This little creature will heal your wounds! Freak...</desc>
+        <id>19</id>
+        <type>Other</type>
+        <power>1</power>
+      </item>
+    </pocket>
+    <stun>false</stun>
+    <x>13</x>
+    <y>8</y>
+    <room>314</room>
+  </lank1>
+  <monsters>
+    <monster>
+      <health>200</health>
+      <name>Stalfos</name>
+      <desc>Some living skeleton that like to poke you with their sword</desc>
+      <id>105</id>
+      <speed>10</speed>
+      <strength>30</strength>
+      <defense>30</defense>
+      <symbol>9827</symbol>
+      <stun>false</stun>
+      <x>17</x>
+      <y>10</y>
+      <room>0</room>
+    </monster>
+    <monster>
+      <health>100</health>
+      <name>Skulltula</name>
+      <desc>These guys are giant spiders and fall on you at the most inopportune times</desc>
+      <id>102</id>
+      <speed>10</speed>
+      <strength>10</strength>
+      <defense>10</defense>
+      <symbol>97</symbol>
+      <stun>false</stun>
+      <x>13</x>
+      <y>11</y>
+      <room>0</room>
+    </monster>
+    <monster>
+      <health>200</health>
+      <name>Like-Like</name>
+      <desc>Amorphous blobs that surround and digest you</desc>
+      <id>106</id>
+      <speed>10</speed>
+      <strength>10</strength>
+      <defense>50</defense>
+      <symbol>9788</symbol>
+      <stun>false</stun>
+      <x>11</x>
+      <y>6</y>
+      <room>0</room>
+    </monster>
+  </monsters>
+</SaveGameData>

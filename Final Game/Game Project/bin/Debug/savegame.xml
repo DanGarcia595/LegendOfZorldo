@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<SaveGameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <lank1>
+    <health>160</health>
+    <name>Lank</name>
+    <desc>I is Lank</desc>
+    <id>101</id>
+    <speed>25</speed>
+    <strength>25</strength>
+    <defense>30</defense>
+    <eitem>
+      <name>KOKIRI SWORD</name>
+      <desc>A forgotten blade with a well fashioned hilt and a strange yet alluring
+luster.
+</desc>
+      <id>3</id>
+      <type>Weapon</type>
+      <power>7</power>
+    </eitem>
+    <pocket>
+      <item>
+        <name>WOODEN SWORD</name>
+        <desc>A standard wooden sword used by many aspiring knights during training.
+</desc>
+        <id>1</id>
+        <type>Weapon</type>
+        <power>4</power>
+      </item>
+      <item>
+        <name>BROKEN SHIELD</name>
+        <desc>A crude shield with splintered edges.
+</desc>
+        <id>2</id>
+        <type>Utility</type>
+        <power>1</power>
+      </item>
+      <item>
+        <name>FAIRY</name>
+        <desc>This little creature will heal your wounds! Freak...</desc>
+        <id>19</id>
+        <type>Other</type>
+        <power>1</power>
+      </item>
+      <item>
+        <name>ARROWS</name>
+        <desc>These finely cut arrows will surely pierce anything stupid enough to get
+in your way.
+</desc>
+        <id>10</id>
+        <type>Utility</type>
+        <power>640</power>
+      </item>
+      <item>
+        <name>DUNGEON MAP</name>
+        <desc>Thank god you know how to read!
+</desc>
+        <id>15</id>
+        <type>DI</type>
+        <power>0</power>
+      </item>
+      <item>
+        <name>HEART</name>
+        <desc>Your slain foe's still beating heart. YUM!</desc>
+        <id>18</id>
+        <type>Other</type>
+        <power>2</power>
+      </item>
+      <item>
+        <name>KOKIRI SWORD</name>
+        <desc>A forgotten blade with a well fashioned hilt and a strange yet alluring
+luster.
+</desc>
+        <id>3</id>
+        <type>Weapon</type>
+        <power>7</power>
+      </item>
+      <item>
+        <name>KOKIRI SHIELD</name>
+        <desc>A well made shield with strange ancient symbols etched on the face.
+</desc>
+        <id>4</id>
+        <type>Utility</type>
+        <power>2</power>
+      </item>
+      <item>
+        <name>BOOMERANG</name>
+        <desc>A coveted item revered by many as 'The Hand of the Ancient'.
+</desc>
+        <id>8</id>
+        <type>Utility</type>
+        <power>0</power>
+      </item>
+    </pocket>
+    <stun>false</stun>
+    <x>10</x>
+    <y>11</y>
+    <room>304</room>
+  </lank1>
+  <monsters />
+</SaveGameData>

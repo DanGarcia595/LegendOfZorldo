@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Game_Project.AdvObj">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAEAABAAAAAQAAAAgA=</HashCode>
+      <FileName>AdvObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game_Project.Character">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABICAAAAAAIAEAgABAAAAARCBBAAQggQABgAgAAaAo=</HashCode>
+      <FileName>Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game_Project.Chest">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="Game_Project.AdvObj" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.5" Y="0.5" />
+        <Point X="1.5" Y="0.26" />
+        <Point X="9.688" Y="0.26" />
+        <Point X="9.688" Y="0.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAABgAABAYAA=</HashCode>
+      <FileName>Chest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game_Project.Command">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="Game_Project.AdvObj" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.5" Y="0.5" />
+        <Point X="1.5" Y="0.26" />
+        <Point X="7.75" Y="0.26" />
+        <Point X="7.75" Y="0.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAYIAQABAAAAAAAAAAEAAAgAAAQAAAAAAE=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game_Project.Interface">
+    <Position X="7" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQUACgAAAABAAQAAAwAwAAAAgAAIAAAAAAJABCEEwAI=</HashCode>
+      <FileName>Interface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game_Project.Item">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="Game_Project.AdvObj" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.5" Y="0.5" />
+        <Point X="1.5" Y="0.26" />
+        <Point X="5.688" Y="0.26" />
+        <Point X="5.688" Y="0.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAEFAAABAQAAAAAAAAA=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game_Project.Lank">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAIAAAgAAAAAAAAAAAAAAAAIAIAACACAAA=</HashCode>
+      <FileName>Lank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game_Project.MainGame">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACkAAQAAASIABAEAAQAAgAgUAgEJAAwAABABwAIA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game_Project.Room">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="Game_Project.AdvObj" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.5" Y="0.5" />
+        <Point X="1.5" Y="0.26" />
+        <Point X="11.75" Y="0.26" />
+        <Point X="11.75" Y="0.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgGAAYhAIBAAAAAAAAAwAEAAFAABIAADgARQBAABgAQ=</HashCode>
+      <FileName>Room.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game_Project.Save">
+    <Position X="9" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Game_Project.Save.SaveGameData">
+        <Compartments>
+          <Compartment Name="Fields" Collapsed="true" />
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Class Name="Game_Project.Save.SaveGameData.lank" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>Save.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+          <Class Name="Game_Project.Save.SaveGameData.item" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>Save.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+          <Class Name="Game_Project.Save.SaveGameData.monster" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>Save.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Class>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>Save.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Save.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game_Project.Temp">
+    <Position X="5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIABgADAAAAAAIABABgAAAAAAAAACAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Temp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game_Project.XY">
+    <Position X="3" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAABgAAAAYAA=</HashCode>
+      <FileName>XY.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
